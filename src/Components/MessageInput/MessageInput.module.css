@@ -1,0 +1,74 @@
+.message_input {
+    margin-top: auto;
+    position: relative;
+}
+
+.textarea {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: #143843;
+    color: #cdd6f4;
+    width: 100%;
+    padding: 10px 40px 15px 15px;
+    overflow: auto;
+    height: fit-content;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.textarea::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.emoji_picker {
+    position: absolute;
+    bottom: 45px;
+    right: 10px;
+}
+
+.message_send {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.reply {
+    gap: 10px;
+    padding: 20px;
+    background-color: #003746;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+}
+
+.line {
+    align-self: stretch;
+    width: 3px;
+    background-color: #00c08b;
+}
+
+.author {
+    color: #00c08b;
+}
+
+.cancel_btn {
+    margin-left: auto;
+}
+
+.attach {
+    position: absolute;
+    bottom: 75px;
+    right: 10px;
+}
+
+.modal_content {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 700px;
+    height: 400px;
+    background-color: #002c3a;
+}

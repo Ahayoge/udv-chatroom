@@ -1,0 +1,37 @@
+.container {
+    flex-direction: column;
+    padding: 20px;
+    background-color: #0f2932;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.user {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.top {
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.wrap {
+    position: relative;
+}
+
+.emoji_picker {
+    position: absolute;
+}
+
+.update_btn {
+   margin-left: auto;
+}
